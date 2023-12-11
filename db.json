@@ -1,73 +1,75 @@
-winners: {
-  "groups": [
-    {
-      "winners": [
-        { "name": "John Doe", "amount": 500, "game": 123 },
-        { "name": "Jane Smith", "amount": 300, "game": 456 },
-        { "name": "Alice Johnson", "amount": 200, "game": 123 },
-        { "name": "Bob Williams", "amount": 150, "game": 456 },
-        { "name": "Eva Davis", "amount": 100, "game": 123 },
-        { "name": "Mike Taylor", "amount": 80, "game": 456 },
-        { "name": "Sophia Brown", "amount": 60, "game": 123 }
-      ],
-      "showTime": "2023-12-11T15:18:15.634Z"
-    },
-    {
-      "winners": [
-        { "name": "Chris Wilson", "amount": 400, "game": 123 },
-        { "name": "Emily White", "amount": 250, "game": 456 },
-        { "name": "David Miller", "amount": 180, "game": 123 },
-        { "name": "Olivia Martinez", "amount": 120, "game": 456 }
-      ],
-      "showTime": "2023-12-11T15:18:15.634Z"
-    },
-    {
-      "winners": [
-        { "name": "Chris Wilson", "amount": 400, "game": 123 },
-        { "name": "Emily White", "amount": 250, "game": 456 },
-        { "name": "David Miller", "amount": 180, "game": 123 },
-        { "name": "Olivia Martinez", "amount": 120, "game": 456 }
-      ],
-      "showTime": "2023-12-11T15:18:15.634Z"
-    },
-    {
-      "winners": [
-        { "name": "Chris Wilson", "amount": 400, "game": 123 },
-        { "name": "Emily White", "amount": 250, "game": 456 },
-        { "name": "David Miller", "amount": 180, "game": 123 },
-        { "name": "Olivia Martinez", "amount": 120, "game": 456 }
-      ],
-      "showTime": "2023-12-11T15:18:15.634Z"
-    },
-    {
-      "winners": [
-        { "name": "Chris Wilson", "amount": 400, "game": 123 },
-        { "name": "Emily White", "amount": 250, "game": 456 },
-        { "name": "David Miller", "amount": 180, "game": 123 },
-        { "name": "Olivia Martinez", "amount": 120, "game": 456 }
-      ],
-      "showTime": "2023-12-11T15:18:15.634Z"
-    },
-  ],
-  "games": [
-    {
-      "name": "Game A",
-      "id": 123,
-      "imageUrl": "https://example.com/game_a_image.jpg",
-      "pageUrl": {
-        "relative": "/games/game-a",
-        "absolute": "https://example.com/games/game-a"
+{
+  winners: {
+    "groups": [
+      {
+        "winners": [
+          { "name": "John Doe", "amount": 500, "game": 123 },
+          { "name": "Jane Smith", "amount": 300, "game": 456 },
+          { "name": "Alice Johnson", "amount": 200, "game": 123 },
+          { "name": "Bob Williams", "amount": 150, "game": 456 },
+          { "name": "Eva Davis", "amount": 100, "game": 123 },
+          { "name": "Mike Taylor", "amount": 80, "game": 456 },
+          { "name": "Sophia Brown", "amount": 60, "game": 123 }
+        ],
+        "showTime": "2023-12-11T15:18:15.634Z"
+      },
+      {
+        "winners": [
+          { "name": "Chris Wilson", "amount": 400, "game": 123 },
+          { "name": "Emily White", "amount": 250, "game": 456 },
+          { "name": "David Miller", "amount": 180, "game": 123 },
+          { "name": "Olivia Martinez", "amount": 120, "game": 456 }
+        ],
+        "showTime": "2023-12-11T15:18:15.634Z"
+      },
+      {
+        "winners": [
+          { "name": "Chris Wilson", "amount": 400, "game": 123 },
+          { "name": "Emily White", "amount": 250, "game": 456 },
+          { "name": "David Miller", "amount": 180, "game": 123 },
+          { "name": "Olivia Martinez", "amount": 120, "game": 456 }
+        ],
+        "showTime": "2023-12-11T15:18:15.634Z"
+      },
+      {
+        "winners": [
+          { "name": "Chris Wilson", "amount": 400, "game": 123 },
+          { "name": "Emily White", "amount": 250, "game": 456 },
+          { "name": "David Miller", "amount": 180, "game": 123 },
+          { "name": "Olivia Martinez", "amount": 120, "game": 456 }
+        ],
+        "showTime": "2023-12-11T15:18:15.634Z"
+      },
+      {
+        "winners": [
+          { "name": "Chris Wilson", "amount": 400, "game": 123 },
+          { "name": "Emily White", "amount": 250, "game": 456 },
+          { "name": "David Miller", "amount": 180, "game": 123 },
+          { "name": "Olivia Martinez", "amount": 120, "game": 456 }
+        ],
+        "showTime": "2023-12-11T15:18:15.634Z"
+      },
+    ],
+    "games": [
+      {
+        "name": "Game A",
+        "id": 123,
+        "imageUrl": "https://example.com/game_a_image.jpg",
+        "pageUrl": {
+          "relative": "/games/game-a",
+          "absolute": "https://example.com/games/game-a"
+        }
+      },
+      {
+        "name": "Game B",
+        "id": 456,
+        "imageUrl": "https://example.com/game_b_image.jpg",
+        "pageUrl": {
+          "relative": "/games/game-b",
+          "absolute": "https://example.com/games/game-b"
+        }
       }
-    },
-    {
-      "name": "Game B",
-      "id": 456,
-      "imageUrl": "https://example.com/game_b_image.jpg",
-      "pageUrl": {
-        "relative": "/games/game-b",
-        "absolute": "https://example.com/games/game-b"
-      }
-    }
-  ],
-  "timeTo": "2023-12-11T15:52:15.634Z"
+    ],
+    "timeTo": "2023-12-11T15:52:15.634Z"
+  }
 }
