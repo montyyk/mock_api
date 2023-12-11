@@ -1,111 +1,73 @@
-{
-  "quizes": [
+winners: {
+  "groups": [
     {
-      "id": 1,
-      "name": "Quiz 1",
-      "description": "This is the first quiz",
-      "questions": [
-        {
-          "question": "What is 2 + 4?",
-          "question_time": 10,
-          "answers": [
-            { "answer": "6", "isCorrect": true },
-            { "answer": "7", "isCorrect": false },
-            { "answer": "8", "isCorrect": false },
-            { "answer": "5", "isCorrect": false }
-          ]
-        },
-        {
-          "question": "What is the capital of France?",
-          "question_time": 15,
-          "answers": [
-            { "answer": "London", "isCorrect": false },
-            { "answer": "Paris", "isCorrect": true },
-            { "answer": "Berlin", "isCorrect": false },
-            { "answer": "Madrid", "isCorrect": false }
-          ]
-        },
-        {
-          "question": "Which planet is known as the Red Planet?",
-          "question_time": 20,
-          "answers": [
-            { "answer": "Venus", "isCorrect": false },
-            { "answer": "Mars", "isCorrect": true },
-            { "answer": "Jupiter", "isCorrect": false },
-            { "answer": "Saturn", "isCorrect": false }
-          ]
-        },
-        {
-          "question": "What is the largest ocean on Earth?",
-          "question_time": 25,
-          "answers": [
-            { "answer": "Pacific Ocean", "isCorrect": true },
-            { "answer": "Indian Ocean", "isCorrect": false },
-            { "answer": "Atlantic Ocean", "isCorrect": false },
-            { "answer": "Arctic Ocean", "isCorrect": false }
-          ]
-        },
-        {
-          "question": "Who painted the Mona Lisa?",
-          "question_time": 15,
-          "answers": [
-            { "answer": "Leonardo da Vinci", "isCorrect": true },
-            { "answer": "Pablo Picasso", "isCorrect": false },
-            { "answer": "Vincent van Gogh", "isCorrect": false },
-            { "answer": "Michelangelo", "isCorrect": false }
-          ]
-        },
-        {
-          "question": "What is the largest organ in the human body?",
-          "question_time": 20,
-          "answers": [
-            { "answer": "Heart", "isCorrect": false },
-            { "answer": "Lungs", "isCorrect": false },
-            { "answer": "Brain", "isCorrect": false },
-            { "answer": "Skin", "isCorrect": true }
-          ]
-        },
-        {
-          "question": "Which country is known for inventing pizza?",
-          "question_time": 15,
-          "answers": [
-            { "answer": "Italy", "isCorrect": true },
-            { "answer": "United States", "isCorrect": false },
-            { "answer": "Greece", "isCorrect": false },
-            { "answer": "China", "isCorrect": false }
-          ]
-        },
-        {
-          "question": "What is the chemical symbol for gold?",
-          "question_time": 10,
-          "answers": [
-            { "answer": "Ag", "isCorrect": false },
-            { "answer": "Au", "isCorrect": true },
-            { "answer": "Fe", "isCorrect": false },
-            { "answer": "Cu", "isCorrect": false }
-          ]
-        },
-        {
-          "question": "What is the output of the following code snippet?",
-          "question_time": 15,
-          "answers": [
-            { "answer": "Hello", "isCorrect": true },
-            { "answer": "World", "isCorrect": false }
-          ],
-          "snippet": "console.log('Hello');\nconsole.log('World');",
-          "snippetLanguage": "javascript"
-        },
-        {
-          "question": "What is the result of the following code?",
-          "question_time": 20,
-          "answers": [
-            { "answer": "True", "isCorrect": false },
-            { "answer": "False", "isCorrect": true }
-          ],
-          "snippet": "x = 5\ny = 10\nresult = x > y\nprint(result)",
-          "snippetLanguage": "python"
-        }
-      ]
+      "winners": [
+        { "name": "John Doe", "amount": 500, "game": 123 },
+        { "name": "Jane Smith", "amount": 300, "game": 456 },
+        { "name": "Alice Johnson", "amount": 200, "game": 123 },
+        { "name": "Bob Williams", "amount": 150, "game": 456 },
+        { "name": "Eva Davis", "amount": 100, "game": 123 },
+        { "name": "Mike Taylor", "amount": 80, "game": 456 },
+        { "name": "Sophia Brown", "amount": 60, "game": 123 }
+      ],
+      "showTime": "2023-12-11T15:18:15.634Z"
+    },
+    {
+      "winners": [
+        { "name": "Chris Wilson", "amount": 400, "game": 123 },
+        { "name": "Emily White", "amount": 250, "game": 456 },
+        { "name": "David Miller", "amount": 180, "game": 123 },
+        { "name": "Olivia Martinez", "amount": 120, "game": 456 }
+      ],
+      "showTime": "2023-12-11T15:18:15.634Z"
+    },
+    {
+      "winners": [
+        { "name": "Chris Wilson", "amount": 400, "game": 123 },
+        { "name": "Emily White", "amount": 250, "game": 456 },
+        { "name": "David Miller", "amount": 180, "game": 123 },
+        { "name": "Olivia Martinez", "amount": 120, "game": 456 }
+      ],
+      "showTime": "2023-12-11T15:18:15.634Z"
+    },
+    {
+      "winners": [
+        { "name": "Chris Wilson", "amount": 400, "game": 123 },
+        { "name": "Emily White", "amount": 250, "game": 456 },
+        { "name": "David Miller", "amount": 180, "game": 123 },
+        { "name": "Olivia Martinez", "amount": 120, "game": 456 }
+      ],
+      "showTime": "2023-12-11T15:18:15.634Z"
+    },
+    {
+      "winners": [
+        { "name": "Chris Wilson", "amount": 400, "game": 123 },
+        { "name": "Emily White", "amount": 250, "game": 456 },
+        { "name": "David Miller", "amount": 180, "game": 123 },
+        { "name": "Olivia Martinez", "amount": 120, "game": 456 }
+      ],
+      "showTime": "2023-12-11T15:18:15.634Z"
+    },
+  ],
+  "games": [
+    {
+      "name": "Game A",
+      "id": 123,
+      "imageUrl": "https://example.com/game_a_image.jpg",
+      "pageUrl": {
+        "relative": "/games/game-a",
+        "absolute": "https://example.com/games/game-a"
+      }
+    },
+    {
+      "name": "Game B",
+      "id": 456,
+      "imageUrl": "https://example.com/game_b_image.jpg",
+      "pageUrl": {
+        "relative": "/games/game-b",
+        "absolute": "https://example.com/games/game-b"
+      }
     }
-  ]
+  ],
+  "timeTo": "2023-12-11T15:52:15.634Z"
 }
